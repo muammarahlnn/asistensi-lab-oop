@@ -1,25 +1,26 @@
 import java.util.Scanner;
 
-public class o5 {
+public class no5 {
     public static void main(String[] args) {
         Scanner inp = new Scanner(System.in);
         String tanggal = inp.nextLine();
-        String [] arraytanggal = tanggal.split("-");
-        // System.out.println(arraytanggal);
-        int [] arraytanggal2 = new int [3];
+        String[] arraytanggal = tanggal.split("-");
+        System.out.println(arraytanggal);
+        int[] arraytanggal2 = new int[3];
         for (int i = 0; i < arraytanggal.length; i++) {
-            arraytanggal2[i] =  Integer.parseInt(arraytanggal[i]);
+            arraytanggal2[i] = Integer.parseInt(arraytanggal[i]);
         }
         int tahun = arraytanggal2[2];
         String tahun2 = "";
-        if (tahun >= 0 && tahun < 30){
+        if (tahun >= 0 && tahun < 30) {
             tahun2 = "20" + arraytanggal[2];
         } else {
             tahun2 = "19" + arraytanggal[2];
         }
-        System.out.println(arraytanggal2[0] + " " + konversiBulan(arraytanggal2[1])+ " " + tahun2);
+        System.out.println(arraytanggal2[0] + " " + konversiBulan(arraytanggal2[1]) + " " + tahun2);
     }
-    public static String konversiBulan(int angka){
+
+    public static String konversiBulan(int angka) {
         if (angka == 1) {
             return "Januari";
         } else if (angka == 2) {
