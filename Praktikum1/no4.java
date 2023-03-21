@@ -7,8 +7,7 @@ public class no4 {
         System.out.print("Masukkan judul film: ");
         String kalimat = inp.nextLine(); //perintah untuk memasukkan nilai string kalimat
 
-
-        String[] kata = kalimat.toLowerCase().split(" "); //regex untuk mengurutkan char dalam array
+        String[] kata = kalimat.toLowerCase().split(" "); //regex untuk 
 
         //deklarasi variabel untuk diisi dengan string baru
         String kalimatBaru = "";

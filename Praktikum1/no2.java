@@ -5,7 +5,6 @@ public class no2 {
         Scanner inp = new Scanner(System.in); 
         int bilBulat = 0; 
         int bilDecimal = 0;
-
        try {
         System.out.print("Masukkan jumlah bilangan inputan n : "); // print mencetak tanpa adanya enter
         int n = inp.nextInt(); //perintah untuk memasukkan nilai integer
