@@ -47,12 +47,10 @@ public class Produk {
         System.out.println("stok \t\t: "+ stok);
         System.out.println("Harga \t\t: "+ harga);
         //kondisi untuk melakukan pengecekan terhadap stok barang atau produk
-        // \t untuk memposisikan kursor ke tab berikutnya agar penempatan outpunya rapi dan sama rata
-        // \n untuk membuat baris baru
         if (stok <= 0){
             System.out.println("stok barang tidak tersedia \n");
         }else {
-            System.out.println("stok barang masing ada \n");
+            System.out.println("stok barang tersedia \n");
         }   
     }
     

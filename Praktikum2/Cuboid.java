@@ -1,4 +1,6 @@
 public class Cuboid {
+        double height;
+
     double height;
         double width;
         double length;

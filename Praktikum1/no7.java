@@ -1,7 +1,7 @@
 public class no7 {
-     // Inisialisasi array dengan data buah
+     // Inisialisasi array dengan data hewan
      // membuat member hanya bisa diakses oleh dari dalam class itu sendiri
-     private static String[] data = {"apel", "jeruk", "mangga", "anggur", "pisang", "semangka", "durian"};
+     private static String[] data = {"beruang", "panda", "ikan", "ayam", "sapi", "pinguin", "bebek"};
     
      public static int findIndex(String text) {
          // Konversi teks ke huruf kecil agar case-insensitive
@@ -22,10 +22,10 @@ public class no7 {
     public static void main(String[] args) {
         //digunakan untuk mencari posisi (index) pertama suatu string dalam string yang lain
         // Cari indeks teks dalam array
-        System.out.println("Indeks dari 'anggur': " + findIndex("Anggur"));
-        System.out.println("Indeks dari 'mangga': " + findIndex("mangga"));
+        System.out.println("Indeks dari 'pinguin': " + findIndex("pingUin"));
+        System.out.println("Indeks dari 'sapi': " + findIndex("sapi"));
 
         // Cari indeks teks yang tidak ada dalam array
-        System.out.println("Indeks dari 'apel hijau': " + findIndex("apel hijau"));
+        System.out.println("Indeks dari 'singa': " + findIndex("singa"));
     }
 }

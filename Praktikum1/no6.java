@@ -1,28 +1,22 @@
 import java.util.Scanner;
 
 public class no6 {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
 
-    public static void main(String[] args){
-         //Inisialisasi objek input dari class scanner
-       Scanner inp =new Scanner(System.in);
         try {
-            //Input nilai jari-jari
-            System.out.print("Masukan Jari-jari : ");
-            double r = inp.nextDouble();
-            
-            //Menghitung luas lingkaran
-            double luasLingkaran = Math.PI * Math.pow(r, 2);
-            
-            String hasil = String.format("%.2f",luasLingkaran) ;
-            
-            System.out.println("luas lingkaran adalah : " + hasil);
-            inp.close();
-        
+
+            System.out.print("Input jari-jari : ");
+            double r = input.nextDouble();  
+            double pi = Math.PI; 
+            double hitungLuas = pi*Math.pow(r, 2);
+
+            System.out.printf("Luas lingkaran : " + "%.2f", hitungLuas);   //dipake kalau mau nyelipin var inputan
+            // "%2f" -> 2 angka belakang koma
+
         } catch (Exception e) {
-            System.out.println("inputan bukan angka");
-            
+            System.out.println("Input harus berupa angka!");
         }
-        
+        input.close();
     }
-    
 }

@@ -1,25 +1,27 @@
-import java.util.Scanner;
+import java.util.Scanner; 
 
 public class no3 {
     public static void main(String[] args) {
-        Scanner inp = new Scanner(System.in); //Inisialisasi objek input dari class scanner
-
+        Scanner sc = new Scanner(System.in); //untuk bikin variabel inputan
+        
         try {
-            System.out.print("Name : ");
-            String name = inp.nextLine(); //perintah untuk memasukkan nilai  string nama
-
-            //integer.parseint untuk mengkonversi nilai bertipe data string menjadi nilai bertipe data int
+            
+            System.out.print("Name : ");        // -> bukan println biar yg diinput jdi ke samping
+            String name = sc.nextLine();            // nextLine -> biar namanya bisa >= 2                                    
+            
             System.out.print("Umur : ");
-            int age = inp.nextInt(); //perintah untuk memasukkan nilai integer
-            inp.nextLine();
+            int age = sc.nextInt(); 
+            sc.nextLine();                          // biar bisa input hobby
             
             System.out.print("Hobby : ");
-            String hobby = inp.nextLine(); //perintah untuk memasukkan nilai string hobby
+            String hobby = sc.nextLine();           // nextLine -> biar hobbynya bisa >= 2
+            
+            System.out.println("Nama saya "+ name + ", " + age + " tahun, " + "hobby " + hobby);
+            
+            sc.close(); //kalau ndd inputnya ini resource leak jadi inputan sllu berjalan jadi penyimpangan di memori
 
-            System.out.println("Nama saya " + name+ ", " + age + " Tahun" + ", " +"Hobby "+ hobby);
-            inp.close();
-        } catch (Exception e) { //Untuk menghandle jika terjadi kesalahan
-            System.out.println("Umur harus berupa angka");   
+        } catch (Exception e) {
+            System.out.println("input bukan angka"); 
         }
     }
 }
