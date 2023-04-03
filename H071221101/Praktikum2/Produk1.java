@@ -36,9 +36,6 @@ public class Produk1 {
         Produk1 produk1 = new Produk1(111, "Bantal", 60, 34000);
         Produk1 produk2 = new Produk1(222, "Guling", 0, 50000);
     
-
-
-
         System.out.println("ID produk 1: " + produk1.getId());
         System.out.println("Nama produk 1: " + produk1.getNama());
         System.out.println("Stok produk 1: " + produk1.getStok());
