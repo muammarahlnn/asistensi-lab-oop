@@ -1,4 +1,4 @@
-package Prak3;
+// package Prak3;
 
 import java.util.ArrayList;
 import java.util.Scanner;
