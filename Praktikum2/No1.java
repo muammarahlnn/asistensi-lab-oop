@@ -10,5 +10,15 @@ public class No1 {
         ibukota.kode = "021";
         // panggil salah satu method
         ibukota.deskripsiIbukota();
+
+        //proses instansiasi di class mataUangNegara dalam class no1
+        MataUangNegara mataUangNegara = new MataUangNegara();
+        
+        //tambahkan nilai pada atribut
+        mataUangNegara.mataUang = "Nuevo Sol Peru";
+        mataUangNegara.negara = "Peru";
+        mataUangNegara.kode = "pen";
+        //panggil salah satu method 
+        mataUangNegara.deskripsiMataUang();   
     }
 }
