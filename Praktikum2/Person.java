@@ -4,9 +4,6 @@ public class Person {
     private boolean isMale;
 
     // return untuk mengembalikan nilai atribut
-    // method this untuk mengakses objek
-    // dan menghindari kesalahan akses antara property dan argument method yang
-    // memiliki nama sama
     public void setName(String name) {
         this.name = name;
     }
