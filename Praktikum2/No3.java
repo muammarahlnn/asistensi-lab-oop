@@ -4,8 +4,8 @@ public class No3 {
         // proses instansiasi di class Produk dalam class no3
         Produk produk = new Produk();
         //pengisian pertama pada atribut dengan nilai
-        produk.idProduk = "ABC";
-        produk.namaProduk = "ABC Kecap manis";
+        produk.idProduk = "ABCD";
+        produk.namaProduk = "ABCD Kecap manis";
         produk.stok = 6; 
         produk.harga = 12000;
 

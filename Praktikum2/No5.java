@@ -12,12 +12,10 @@ public class No5 {
         mahasiswa.nama ="Rabiatul Awalyah";
         mahasiswa.nim = "H071221003";
         //mengambil nilai dari method yang sudah diset nilai atributnya
-        System.out.println("Nama: " + mahasiswa.getName());
-        System.out.println("NIM: " + mahasiswa.getNim());
+        System.out.println("Nama \t: " + mahasiswa.getName());
+        System.out.println("NIM \t: " + mahasiswa.getNim());
         // menset nilai alamat dan mengambil nilainya
         // kemudian di concat di method getAlamatLengkap lalu mencetak hasilnya
-        System.out.println("Alamat: " + mahasiswa.getAlamat().getAlamatLengkap());
+        System.out.println("Alamat \t: " + mahasiswa.getAlamat().getAlamatLengkap());
     }
 }
-    
-
