@@ -5,6 +5,6 @@ public class Main {
         Utils.selfDisplay();
         Buku buku = new Buku("laut", "armin", 45);
         buku.showDetailBuku();
-    }
+            }
 
 }
