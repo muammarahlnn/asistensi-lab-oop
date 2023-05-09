@@ -1,9 +1,4 @@
 //3// Abstract class untuk Dog
-
-interface Move{
-    void move();   
-}
-
 abstract class Dog implements Move {
     protected int distance;
     protected int position;
@@ -13,11 +8,9 @@ abstract class Dog implements Move {
         this.position = position;
         this.averageLength = averageLength;
     }
-
     public void move() {
         position += distance;
     }
-
     abstract void describe();
 }
 
@@ -45,13 +38,12 @@ class Pitbull extends Dog {
     void describe() {
         System.out.println("Pitbull dikenal sebagai anjing yang seram.");
     }
-
 }
 
 class SiberianHusky extends Dog {
     public SiberianHusky(int position, int averageLength) {
         super(position, averageLength);
-        this.distance =+ 2;
+        this.distance += 2;
     }
 
     @Override
@@ -68,7 +60,7 @@ class SiberianHusky extends Dog {
 class Bulldog extends Dog {
     public Bulldog(int position, int averageLength) {
         super(position, averageLength);
-        this.distance =+ 1;
+        this.distance += 1;
     }
     @Override
     void describe() {
@@ -109,46 +101,5 @@ class Smartphone implements Move{
     @Override
     public void move() {
         System.out.println("Smartphone berpindah");
-    }
-}
-
-class Car implements Move{
-    protected int totalForwardGear;
-    protected String color;
-    protected int maxSpeed;
-
-    public Car(int totalForwardGear, String color, int maxSpeed) {
-        this.totalForwardGear = totalForwardGear;
-        this.color = color;
-        this.maxSpeed = maxSpeed;
-    }
-    @Override
-    public void move() {
-        System.out.println("Mobil sedang bergerak");
-        
-    }
-}
-
-public class Main{
-    public static void main(String[] args) {
-        System.out.println("\n");
-        SiberianHusky siberianHusky = new SiberianHusky(0, 58);
-        System.out.println("Posisi Siberian Husky : " + siberianHusky.position);
-        siberianHusky.move();
-        System.out.println("Panjang rata-rata : " + siberianHusky.averageLength);
-        siberianHusky.describe();
-        System.out.println("\n");
-
-        Smartphone smartphone = new Smartphone(10000000, "Iphone 11");
-        System.out.println("Nama Barang : " + smartphone.brand);
-        System.out.println("Harga       : " + smartphone.price);
-        smartphone.move();
-        System.out.println("\n");
-
-        Car car = new Car(6, "Putih", 325);
-        System.out.println("Foward Gear : " + car.totalForwardGear);
-        System.out.println("Warna Mobil : " + car.color);
-        System.out.println("Top Speed   : " +car.maxSpeed);
-        car.move();
     }
 }
