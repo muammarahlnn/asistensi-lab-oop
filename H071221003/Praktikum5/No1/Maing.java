@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class Main {
+class Maing {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println(" ==== BANGUN RUANG ==== ");
@@ -17,16 +17,17 @@ class Main {
 
         System.out.print("> ");
         int pilih = sc.nextInt();
-        System.out.println(" ====================== ");
-        switch(pilih){
+        System.out.println("=====================");
+        switch(pilih) {
             case 1 :
-            Kubus kubus = new Kubus();  
-            System.out.print("Masukkan panjang sisi : ");
+            Kubus kubus = new Kubus();
+            System.out.println("Masukkan sisi: ");
             Double angka = sc.nextDouble();
             kubus.setSisi(angka);
-            System.out.println("Luas Permukaan : " + kubus.hitungLuas());
-            System.out.println("Volume         : " + kubus.hitungVolume());
-            break ;
+
+            System.out.println("Luas Permukaan Kubus : " + kubus.hitungLuas());
+            System.out.println("Volume Kubus : " + kubus.hitungVolume());
+            break;
 
             case 2 :
             Balok balok = new Balok();

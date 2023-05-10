@@ -6,7 +6,9 @@ abstract class BangunDatar {
 class Persegi extends BangunDatar {
     double sisi;
 
-    public Persegi() {}
+    public Persegi() {
+
+    }
 
     public void setSisi(double sisi) {
         this.sisi = sisi;
@@ -26,14 +28,14 @@ class PersegiPanjang extends BangunDatar {
     double lebar;
 
     public PersegiPanjang() {}
-
+ 
     public void setPanjang(double panjang) {
         this.panjang = panjang;
     }
     public void setLebar(double lebar) {
         this.lebar = lebar;
     }
-
+   
     
     public double hitungKeliling() {
         return 2 * (panjang + lebar);
@@ -90,7 +92,6 @@ class Segitiga extends BangunDatar {
         return alas + sisikiri + sisikanan;
     }
 
-    @Override
     public double hitungLuas() {
         return (alas * tinggi)/2;
     }
