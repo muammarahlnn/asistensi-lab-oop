@@ -1,0 +1,4 @@
+interface Food {
+    int getprice();
+}
+
