@@ -1,4 +1,4 @@
-public class Main1 {
+public class Main2 {
     public static void main(String[] args) {
         Character[] characters = new Character[5];
         characters[0] = new Fighter("Fighter 1",10);
