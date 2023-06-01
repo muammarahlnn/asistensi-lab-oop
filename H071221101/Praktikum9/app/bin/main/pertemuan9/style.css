@@ -1,0 +1,58 @@
+/* style.css */
+
+.title-label {
+    -fx-font-size: 24px;
+    -fx-font-family: Arial;
+    -fx-text-fill: #333333;
+}
+
+.start-button {
+    -fx-font-size: 14px;
+    -fx-font-family: Arial;
+    -fx-background-color: #FFD700;
+    -fx-text-fill: #333333;
+}
+
+.menu-button {
+    -fx-font-size: 14px;
+    -fx-font-family: Arial;
+    -fx-background-color: #FFA07A;
+    -fx-text-fill: #333333;
+}
+
+.calc-button {
+    -fx-font-size: 14px;
+    -fx-font-family: Arial;
+    -fx-background-color: #ADD8E6;
+    -fx-text-fill: #333333;
+}
+
+.clear-button {
+    -fx-font-size: 14px;
+    -fx-font-family: Arial;
+    -fx-background-color: #ffffff;
+    -fx-text-fill: #333333;
+}
+
+.back-button {
+    -fx-font-size: 14px;
+    -fx-font-family: Arial;
+    -fx-background-color: #FFB6C1;
+    -fx-text-fill: #333333;
+}
+
+.scene1-layout {
+    -fx-background-color: #F0FFFF;
+}
+
+.scene2-layout {
+    -fx-background-color: #F5F5DC;
+}
+
+.scene3-layout {
+    -fx-background-color: #E6E6FA;
+}
+
+.scene4-layout {
+    -fx-background-color: #F0FFF0;
+}
