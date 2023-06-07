@@ -1,0 +1,92 @@
+/* style.css */
+
+.title-label {
+    -fx-font-size: 24px;
+    -fx-font-family: Courier New;
+    -fx-font-weight: bold;
+    -fx-text-fill: #FFA07A;
+}
+
+.start-button {
+    -fx-font-size: 14px;
+    -fx-font-family: Comic Sans MS;
+    -fx-background-color: #FFA07A;
+    -fx-text-fill: #ffffff;
+    -fx-font-weight: bold;
+}
+
+.text-field {
+    -fx-pref-width: 200px;
+    -fx-pref-height: 30px; 
+}
+
+.menu-button {
+    -fx-font-size: 14px;
+    -fx-font-family: Comic Sans MS;
+    -fx-background-color: #FFA07A;
+    -fx-text-fill: #ffffff;
+    -fx-font-weight: bold;
+
+    -fx-font-size: 14px;
+    -fx-pref-width: 250px; 
+    -fx-pref-height: 40px;
+}
+
+.calc-button {
+    -fx-font-size: 14px;
+    -fx-font-family: Comic Sans MS;
+    -fx-background-color: #ADD8E6;
+    -fx-pref-width: 120px;
+    -fx-text-fill: #ffffff;
+    -fx-font-weight: bold;
+}
+
+.convert-button {
+    -fx-font-size: 14px;
+    -fx-font-family: Comic Sans MS;
+    -fx-background-color: #7edfff;
+    -fx-pref-width: 120px;
+    -fx-text-fill: #ffffff;
+    -fx-font-weight: bold;
+}
+
+.clear-button {
+    -fx-font-size: 14px;
+    -fx-font-family: Comic Sans MS;
+    -fx-background-color: #ffffff;
+    -fx-pref-width: 80px;
+    -fx-text-fill: #ff6c6c;
+    -fx-font-weight: bold;
+}
+
+.back-button {
+    -fx-font-size: 14px;
+    -fx-font-family: Comic Sans MS;
+    -fx-background-color: #FFB6C1;
+    -fx-pref-width: 120px;
+    -fx-text-fill: #ffffff;
+    -fx-font-weight: bold;
+}
+
+.scene1-layout {
+    -fx-background-color: #ffffff;
+    -fx-padding: 20;
+}
+
+.scene2-layout {
+    -fx-background-color: #F5F5DC;
+    -fx-padding: 20;
+}
+
+.scene3-layout {
+    -fx-background-color: #E6E6FA;
+    -fx-padding: 20;
+}
+
+.scene4-layout {
+    -fx-background-color: #c2e0ff;
+    -fx-padding: 20;
+}
+
+
+
